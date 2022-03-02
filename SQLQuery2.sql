@@ -11,9 +11,9 @@ create table employee_payroll
 );
 
 ---UC3 Create Employee payroll database service as a part of CURD operation---
-INSERT INTO employee_payroll (Name, Salary, Startdate) VALUES ('Arjun', 45986.58, getdate());
-INSERT INTO employee_payroll  VALUES ('Ramesh', 95986.58, getdate());
-INSERT INTO employee_payroll  VALUES ('Rakesh', 685986.58, getdate());
+INSERT INTO employee_payroll (Name, Salary, Startdate) VALUES ('Arjun', 45956.58, getdate());
+INSERT INTO employee_payroll  VALUES ('Ramesh', 95346.58, getdate());
+INSERT INTO employee_payroll  VALUES ('Rakesh', 685876.58, getdate());
 INSERT INTO employee_payroll (Name, startdate) VALUES ('Sonu', getdate());
 
 --- UC4 Ability to retrieve all the data that is added in payroll service database----
