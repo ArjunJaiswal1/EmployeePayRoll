@@ -14,4 +14,4 @@ create table employee_payroll
 INSERT INTO employee_payroll (Name, Salary, Startdate) VALUES ('Arjun', 45986.58, getdate());
 INSERT INTO employee_payroll  VALUES ('Ramesh', 95986.58, getdate());
 INSERT INTO employee_payroll  VALUES ('Rakeh', 685986.58, getdate());
-INSERT INTO employee_payroll (Name, startdate) VALUES ('Salim', getdate());
+INSERT INTO employee_payroll (Name, startdate) VALUES ('Sonu', getdate());
