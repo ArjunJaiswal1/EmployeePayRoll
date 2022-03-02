@@ -17,5 +17,5 @@ INSERT INTO employee_payroll  VALUES ('Rakesh', 685986.58, getdate());
 INSERT INTO employee_payroll (Name, startdate) VALUES ('Sonu', getdate());
 
 --- UC4 Ability to retrieve all the data that is added in payroll service database----
-select * from employee_payroll where Name= '';
-select id,Name from employee_payroll where Name= '';
+select * from employee_payroll where Name= 'Ramesh';
+select id,Name from employee_payroll where Name= 'Ramesh';
